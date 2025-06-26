@@ -100,9 +100,53 @@ body{
 }
 
 .parametro-senha__texto {
+    border-top: 2px solid var(--borda);
+    border-bottom: 2px solid var(--borda);
     padding: 24px;
     margin: 0;
     font-size: 24px;
+}
+
+label {
+    font-size: 20px;
+}
+
+.checkbox {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.barra {
+    background-color: var(--fundo-senha);
+    height: 30px;
+    width: 100%;
+}
+
+.forca {
+    height: 30px;
+    bottom: 30px;
+    position: relative;
+}
+
+.fraca {
+    background-color: #ff0000;
+    width: 25%;
+}
+
+.media {
+    background-color: #fff700;
+    width: 50%;
+}
+
+.forte {
+    background-color: #4dff00;
+    width: 100%; 
+}
+
+.parametro-senha-textos {
+    display: flex;
+    justify-content: space-between;
 }
 
 @media screen and (min-width: 768px) {
